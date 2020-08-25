@@ -1,7 +1,7 @@
 variable "name" {
-  description = "assignment01"
+  description = "the name of your stack, e.g. \"demo\""
 }
 
 variable "environment" {
-  description = "hypothetical"
+  description = "the name of your environment, e.g. \"prod\""
 }
