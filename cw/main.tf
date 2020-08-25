@@ -1,5 +1,5 @@
-resource "aws_cloudwatch_log_group" "assignment01-ecs" {
-  name = "assignment01-ecs-logging"
+resource "aws_cloudwatch_log_group" "main" {
+  name = "${var.name}-cw-${var.environment}"
 
   tags = {
     Name = "${var.name}-cw-${var.environment}"
